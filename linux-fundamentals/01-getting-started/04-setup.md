@@ -44,7 +44,7 @@ docker run -dit \
 
 ### Docker Command to Run ubuntu Linux Container Using Git Bash in Windows host (Persistent & Long-Term)
 
-...bash
+```bash
 docker run -dit \
   --name ubuntu-container \
   --hostname ubuntu-dev \
@@ -58,8 +58,8 @@ docker run -dit \
   --env TZ=Asia/Kolkata \
   --env LANG=en_US.UTF-8 \
   ubuntu:latest /bin/bash
-
-...
+                 
+```
 
 ## Explanation of Each Parameter
 
