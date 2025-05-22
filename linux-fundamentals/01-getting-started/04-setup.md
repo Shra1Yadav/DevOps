@@ -57,7 +57,7 @@ docker run -dit \
   -p 8080:80 \
   --env TZ=Asia/Kolkata \
   --env LANG=en_US.UTF-8 \
-  ubuntu:latest /bin/bash
+  ubuntu:latest bash
                  
 ```
 
